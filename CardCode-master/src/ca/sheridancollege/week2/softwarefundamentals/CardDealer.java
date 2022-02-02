@@ -15,7 +15,13 @@ public class CardDealer
         Card ace = new Card("ace", 6);
         ace.setSuit("diamonds");
         System.out.println("ace suit"+ace.getSuit());
-        System.out.println("ace suit"+ace.getvalue());
+        System.out.println("ace suit"+ace.getValue());
+        
+        
+        Card ninehearts = new Card ("ace", 6);
+        ace.setSuit("diamonds");
+        System.out.println("ninehearts suit"+ninehearts.getSuit());
+        System.out.println("nineheart suit"+ninehearts.getValue());
         
         
     }
